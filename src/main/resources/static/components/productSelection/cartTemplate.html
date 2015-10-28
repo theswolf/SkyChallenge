@@ -1,0 +1,13 @@
+<div ng-style="customStyle">
+    BASKET
+    <ul ng-repeat="(key,value) in basket" >
+        <li ng-if="value == true">{{key}}</li>
+    </ul>
+
+    </br>
+    <p><span ng-bind="errorText" style="color:red"></span></p>
+    </br>
+    <button ng-click="confirm()" >
+        Confirm
+    </button>
+</div>

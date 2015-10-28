@@ -1,0 +1,12 @@
+<form name="selectForm">
+  <label for="customerSelection"> Please select customerID: </label>
+  <select name="customerSelection" id="customerSelection" ng-model="data.customerSelection">
+    <option ng-repeat="option in data.availableOptions" value="{{option.id}}">{{option.name}}</option>
+  </select>
+  </br>
+  <p><span id="errorText" ng-bind="errorText" style="color:red"></span></p>
+  </br>
+  <button ng-click="goToProductPage()" ng-disabled="!data.customerSelection">
+    Go to product page
+  </button>
+</form>

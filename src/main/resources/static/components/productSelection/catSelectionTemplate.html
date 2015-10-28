@@ -1,0 +1,11 @@
+<div ng-style="customStyle">
+    {{category}}
+    <div ng-repeat="prod in products">
+
+        <label>{{prod.name}}
+            <input type="checkbox" ng-model="values[prod.name]"
+                   ng-true-value="true" ng-false-value="false">
+        </label><br/>
+
+    </div>
+</div>

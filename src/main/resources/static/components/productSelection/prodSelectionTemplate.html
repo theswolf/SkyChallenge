@@ -1,0 +1,6 @@
+<form>
+    <div ng-repeat="(key,value) in products">
+        <category-sel category="key" products="value" size="propLength()" notify="notify"></category-sel>
+    </div>
+    <cart size="3" basket="basket" ></cart>
+</form>
