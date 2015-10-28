@@ -1,0 +1,11 @@
+.DS_Store
+.idea/
+SkyUkChallenge.iml
+build/
+phantomjsdriver.log
+src/.DS_Store
+src/main/.DS_Store
+src/main/resources/.DS_Store
+src/main/resources/static/.DS_Store
+src/main/resources/static/components/.DS_Store
+target/
